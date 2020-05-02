@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "build": "parcel src/index.html --open"
+    "build": "parcel build src/index.js --no-cache --no-content-hash"
   },
   "dependencies": {
     "parcel": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }

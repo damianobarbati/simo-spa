@@ -5,6 +5,7 @@ const App = () => (
     <h1>Daie!</h1>
 );
 
-render(<App />, document.body);
+render(<App />, document.getElementById('ciaone'));
 
-module.hot.accept();
+if (module)
+    module.hot.accept();
