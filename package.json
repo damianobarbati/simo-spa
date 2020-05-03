@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "parcel build src/index.js --no-cache --no-content-hash"
+    "build": "parcel build src/lol.js --no-cache --no-content-hash"
   },
   "dependencies": {
     "parcel": "^1.12.4",
