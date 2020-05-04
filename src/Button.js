@@ -9,7 +9,7 @@ const Button = ({ children, onClick, ...props }) => {
     };
 
     return (
-        <button onClick={onClickCB}>{children}</button>
+        <button onClick={onClickCB} {...props}>{children}</button>
     );
 };
 
